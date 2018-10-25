@@ -53,13 +53,13 @@ pre{font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1.073em;
     margin: 0;
-    padding-bottom: 2.25em; padding-top: 2.25;
+    padding-bottom: 1.25em; padding-top: 2.25;
     text-align: center;
 }
 
 header{
     background-color:lightgray;
-    padding: 2px;   
+    padding: 1px;   
     width: 100%;
     font-family: "Heebo", sans-serif, serif;
     font-size: 1.2em;
