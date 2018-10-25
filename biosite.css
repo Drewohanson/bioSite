@@ -1,6 +1,6 @@
 
 html  
- {font size=16px;
+ {
  line-height: 1.25;
 } 
 body {  background-color:rgba(18, 161, 251, 0.274)
@@ -53,11 +53,18 @@ pre{font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1.073em;
     margin: 0;
-    padding-bottom: .3em;
+    padding-bottom: 1.3em;
     text-align: center;
 }
 
-
+header{
+    background-color:grey;
+    padding: 15px;   
+    width: 100%;
+    font-family: "Heebo", sans-serif, serif;
+    font-size: 1.2em;
+    text-align: center
+    }
 
 article {
     -webkit-column-count: 2;
