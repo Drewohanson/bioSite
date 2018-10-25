@@ -23,8 +23,7 @@ h2, h3, h4, h5{ color: white;
     margin: 0;
     padding-bottom: .5em;
     text-decoration: underline; 
-    text-align: center
-}
+    text-align: center}
 
 h1 { font-family: 'Mali', cursive;
     font-weight: 500;
@@ -59,7 +58,7 @@ pre{font-family: 'Open Sans', sans-serif;
 
 header{
     background-color:lightgray;
-    padding: 1.15px;   
+    padding: 15px;   
     width: 100%;
     font-family: "Heebo", sans-serif, serif;
     font-size: 1.2em;
