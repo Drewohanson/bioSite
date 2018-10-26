@@ -25,9 +25,9 @@ h2, h3, h4, h5{ color: white;
     text-decoration: underline; 
     text-align: center}
 
-h1 { font-family: 'Mali', cursive;
+h1 { font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2.563em;
     margin: 0;
     padding-bottom: .3em;
     text-align: center;
