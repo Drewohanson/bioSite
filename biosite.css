@@ -1,6 +1,5 @@
-
 html  
- {
+ {font size=16px;
  line-height: 1.25;
 } 
 body {  background-color:rgba(18, 161, 251, 0.274)
@@ -23,7 +22,8 @@ h2, h3, h4, h5{ color: white;
     margin: 0;
     padding-bottom: .5em;
     text-decoration: underline; 
-    text-align: center}
+    text-align: center
+}
 
 h1 { font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -38,7 +38,7 @@ p{ font-family: 'Open Sans', sans-serif;
     font-size: 1.0em;
     margin: 0;
     padding-bottom: 1em; padding-top: 1em; padding-left: 1.75em; padding-right: .75em;
-color: antiquewhite;
+color: antiquewhite
 
 }
 
@@ -47,6 +47,15 @@ center{ display: block;
     margin-left: auto;
     margin-right: auto;
     width: 45%;}
+
+pre{font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.073em;
+    margin: 0;
+    padding-bottom: .3em;
+    text-align: center;
+}
+
 
 
 article {
@@ -61,7 +70,7 @@ article {
           column-gap: 3em;        
   }
 
-
+ 
 a:link {
     color: rgb(255, 42, 42); 
     background-color: transparent; 
@@ -69,7 +78,7 @@ a:link {
     text-emphasis-color: red;
 }
 a:visited {
-    color: blueviolet
+    color: blueviolet;
     background-color: transparent;
     text-decoration: none;
 }
@@ -106,4 +115,3 @@ footer{
 .color2 {
     background-color:Darkblue;
 }
-
