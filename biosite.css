@@ -27,7 +27,7 @@ h2, h3, h4, h5{ color: white;
 
 h1 { font-family: 'Mali', cursive;
     font-weight: 500;
-    font-size: 5.0em;
+    font-size: 2.5em;
     margin: 0;
     padding-bottom: .3em;
     text-align: center;
@@ -48,22 +48,7 @@ center{ display: block;
     margin-right: auto;
     width: 45%;}
 
-pre{font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.073em;
-    margin: 0;
-    padding-bottom: 1.5em; padding-top: 2.25;
-    text-align: center;
-}
 
-header{
-    padding: 15px;   
-    width: 100%;
-    font-family: "Heebo", sans-serif, serif;
-    font-size: 1.2em;
-    text-align: center;
-     display:block;
-    }
 article {
     -webkit-column-count: 2;
        -moz-column-count: 2;
