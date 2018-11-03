@@ -43,10 +43,12 @@ color: antiquewhite
 }
 
 
-center{ display: block;
+becky{ display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;}
+    width: 45%;
+    padding-bottom: 1.3em;
+}
 
 pre{font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -103,8 +105,16 @@ footer{
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(153, 149, 149);
+    background-color: rgb(122, 120, 120);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 85px;
+    border: 1px solid #555;
+    height: 50%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
     overflow: hidden;
+    
 }
 
 /* Style the links inside the navigation bar */
@@ -112,9 +122,11 @@ footer{
     float: left;
     color: #0f0f0f;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
     text-decoration: none;
     font-size: 17px;
+    display: block;
+    border-bottom: 1px solid #555;
 }
 
 /* Change the color of links on hover */
@@ -123,15 +135,8 @@ footer{
     color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: darkblue;
-    color: white;
-}@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
+
+.topnav a:last-child {
+    border-bottom: 1px solid #555;
+}
+    
