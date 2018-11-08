@@ -1,9 +1,14 @@
 html  
  {font-size: 16px;
  line-height: 1.25;
-} 
-body {  background-color:rgba(18, 161, 251, 0.274)
-}
+  background: url(images/trees.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
 
 img {text-align: center;
     width: 200px;
@@ -13,7 +18,7 @@ img {text-align: center;
     display: block;
 }
 
-a{color:red}
+a{color:rgb(247, 191, 8)}
 
 h2, h3, h4, h5{ color: white;
     font-family: 'Open Sans', sans-serif;
@@ -29,8 +34,8 @@ h1 {font-family: 'Lobster', cursive;
     font-weight: 700;
     font-size: 3.563em;
     margin: 0;
-    padding-bottom: .3em;
     text-align: center;
+    color: rgb(200, 230, 69)
 } 
 
 p{ font-family: 'Open Sans', sans-serif;
@@ -41,23 +46,6 @@ p{ font-family: 'Open Sans', sans-serif;
 color: antiquewhite
 
 }
-
-
-becky{ display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
-    padding-bottom: 1.3em;
-}
-
-pre{font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.073em;
-    margin: 0;
-    padding-bottom: .3em;
-    text-align: center;
-}
-
  
 a:link {
     color: rgb(255, 42, 42); 
@@ -114,6 +102,7 @@ footer{
     height: 50%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: hidden;
+    float: left;
     
 }
 
