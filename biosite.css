@@ -35,7 +35,7 @@ h1 {font-family: 'Lobster', cursive;
     font-size: 3.563em;
     margin: 0;
     text-align: center;
-    color: rgb(200, 230, 69)
+    color: rgb(210, 243, 227)
 } 
 
 p{ font-family: 'Open Sans', sans-serif;
@@ -72,7 +72,7 @@ a:active {
 
 
 footer{
-    background-color:blue;
+    background-color:rgb(17, 17, 156);
     padding: 15px;   
     width: 100%;
     font-family: "Heebo", sans-serif, serif;
@@ -129,3 +129,11 @@ footer{
     border-bottom: 1px solid #555;
 }
     
+header{
+    background-color:rgb(15, 15, 161);
+    padding: 15px;   
+    width: 100%;
+    font-family: "Heebo", sans-serif, serif;
+    font-size: 1.2em;
+    text-align: center
+    }
